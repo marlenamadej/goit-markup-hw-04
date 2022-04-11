@@ -139,6 +139,7 @@ img {
 .background .container {
     background-color: #2f303a;
     width: 1600px;
+    background-image:url("images/background.jpg");
 }
 
 .background-header {
