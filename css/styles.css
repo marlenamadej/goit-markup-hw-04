@@ -51,12 +51,14 @@ img {
 }
 
 /*========HEADER========*/
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
 
 .header .container {
     display: flex;
     align-items: center;
-    width: 1200px;
-    border-bottom: 1px solid #ECECEC;
+    
 }
 
 .navigation {
