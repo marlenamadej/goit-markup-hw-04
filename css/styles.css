@@ -207,9 +207,23 @@ img {
     list-style: none;
     margin-top: 94px;
 }
+.features-item{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
 
 .features-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.features-icon {
+    display:flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 .features-title {
@@ -220,6 +234,7 @@ img {
     width: 270;
     font-size: 14px;
     letter-spacing: 0.03em;
+    margin-top:30px;
 }
 
 .features-description {
@@ -326,7 +341,7 @@ img {
     display:flex;
     width:44px;
     height:44px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 50%;
     align-items: center;
     justify-content:center;
@@ -343,6 +358,43 @@ img {
     height:20px;
 }
 
+.customers .container {
+    width: 1600px;
+}
+
+.customers-list {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 94px;
+}
+
+.customers-list-item-link{
+    display:flex;
+    width:170px;
+    height:92px;
+    border-radius:4px;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+}
+
+.customers-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.customers-list-item-link:hover,
+.customers-list-item-link:focus {
+    fill: #2196F3;
+}
+
+.customers-icon {
+    width: 106px;
+    height: 60.04px;
+}
 
 /*========END OFFER AND TEAM ========*/
 
@@ -408,6 +460,43 @@ img {
 .footer-address-phone:hover,
 .footer-address-phone:focus {
     color: var(--secondary-color);
+}
+
+.social-footer-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.social-footer-list{
+    display:flex;
+    list-style: none;
+}
+
+.social-footer-list-item-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list-item-link:hover,
+.social-list-item-link:focus {
+    background-color: #2196F3;
+}
+
+.social-footer-list-item-link{
+    margin-right:10px;
+}
+
+.social-footer-icon{
+    width:20px;
+    height:20px;
 }
 
 /*========END FOOTER ========*/
