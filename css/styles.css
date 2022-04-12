@@ -483,10 +483,11 @@ img {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    fill:#fff
 }
 
-.social-list-item-link:hover,
-.social-list-item-link:focus {
+.social-footer-list-item-link:hover,
+.social-footer-list-item-link:focus {
     background-color: #2196F3;
 }
 
