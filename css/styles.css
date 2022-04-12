@@ -212,18 +212,18 @@ img {
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-icon {
+    justify-content: center;
+    align-items: center;
+    margin:25px 100px 25px 100px;
 }
 
 .features-item:not(:last-child) {
     margin-right: 30px;
-}
-
-.features-icon {
-    display:flex;
-    width: 70px;
-    height: 70px;
-    justify-content: center;
-    align-items: center;
 }
 
 .features-title {
@@ -253,6 +253,13 @@ img {
 /*========END FEATURES========*/
 
 /*========OFFER AND TEAM ========*/
+.headerh2-pictures .container{
+    width:1200px;
+    margin-top:94px;
+}
+
+
+
 .headerh2 {
     font-weight: 700;
     font-size: 36px;
@@ -302,7 +309,6 @@ img {
     border-radius: 0px 0px 4px 4px;
     margin: 0;
     background-color: #FFFFFF;
-
 }
 
 .team-name {
@@ -337,6 +343,7 @@ img {
     padding-bottom: 30px;
 }
 
+
 .social-list-item-link{
     display:flex;
     width:44px;
@@ -345,17 +352,13 @@ img {
     border-radius: 50%;
     align-items: center;
     justify-content:center;
+    fill:#AFB1B8;
 }
 
 .social-list-item-link:hover,
 .social-list-item-link:focus {
     background-color: #2196F3;
     fill: #FFFFFF;
-}
-
-.social-icon{
-    width:20px;
-    height:20px;
 }
 
 .customers .container {
@@ -380,6 +383,7 @@ img {
     justify-content:center;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
+    fill:#AFB1B8;
 }
 
 .customers-list-item:not(:last-child) {
@@ -389,11 +393,7 @@ img {
 .customers-list-item-link:hover,
 .customers-list-item-link:focus {
     fill: #2196F3;
-}
-
-.customers-icon {
-    width: 106px;
-    height: 60.04px;
+    border: 1px solid #2196F3;
 }
 
 /*========END OFFER AND TEAM ========*/
@@ -494,10 +494,6 @@ img {
     margin-right:10px;
 }
 
-.social-footer-icon{
-    width:20px;
-    height:20px;
-}
 
 /*========END FOOTER ========*/
 
