@@ -10,7 +10,6 @@ body {
     color: var(--main-color);
     max-width: 1600px;
     margin: 0 auto;
-    border: 1px dashed blue;
 }
 
 h1,
