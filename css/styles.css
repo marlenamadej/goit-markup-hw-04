@@ -44,7 +44,6 @@ img {
     text-decoration: none;
 }
 
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -59,7 +58,6 @@ img {
 .header .container {
     display: flex;
     align-items: center;
-    
 }
 
 .navigation {
@@ -154,16 +152,14 @@ img {
     fill: var(--secondary-color);
 }
 
-
 /*========END HEADER========*/
 
 /*========MAIN========*/
-.background .container {
+.background {
     background-color: #2f303a;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
         url("../images/backgroundresized.jpg");
-    
 }
 
 .background-header {
@@ -174,10 +170,7 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1600px;
-    padding: 200px 452px 30px 452px;
+    padding: 200px 255.2px 30px 255.2px;
 }
 
 .background-button {
@@ -303,12 +296,10 @@ img {
 .pictures-item:not(:last-child) {
     margin-right: 30px;
     margin-bottom: 94px;
-
 }
 
-.team .container {
+.team {
     background-color: #F5F4FA;
-    width:1600px;
 }
 
 .team-list {
@@ -417,9 +408,9 @@ img {
 /*========END OFFER AND TEAM ========*/
 
 /*========FOOTER ========*/
-.footer .container {
+.footer {
     background-color: #2f303a;
-    width: 1600px;
+    
 }
 
 .footer-logo {
@@ -430,7 +421,6 @@ img {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--secondary-color);
-    margin-left: 215px;
     display: block;
     padding-bottom: 20px;
 }
@@ -449,7 +439,6 @@ img {
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    margin-left: 215px;
     padding-bottom: 9px;
 }
 
